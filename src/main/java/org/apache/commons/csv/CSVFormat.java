@@ -800,8 +800,7 @@ public final class CSVFormat implements Serializable {
      *  } catch (InterruptedException e) {
      *    break;
      *       }
-     *   }
-     */
+     */  }
         if (isLineBreak(delimiter)) {
             throw new IllegalArgumentException("The delimiter cannot be a line break");
         }
